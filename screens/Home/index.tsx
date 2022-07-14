@@ -1,4 +1,6 @@
-import { Text, StyleSheet, View } from 'react-native';
+import { Text, SafeAreaView, View, FlatList } from 'react-native';
+import { useState } from 'react';
+import { COLORS, NFTData } from '../constants';
 
 const Home = () => {
   return (
