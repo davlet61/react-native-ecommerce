@@ -1,6 +1,6 @@
 import { Text, SafeAreaView, View, FlatList } from 'react-native';
 import { useState } from 'react';
-import { COLORS, NFTData } from '../constants';
+import { COLORS, NFTData } from '@data';
 
 const Home = () => {
   return (
